@@ -26,7 +26,7 @@
         </b-alert>
 
         <div class="voting">
-            <h1>[[ voting.id ]] - [[ voting.name ]]</h1>
+            <h1>Please vote [[ voting.id ]] - [[ voting.name ]]</h1>
 
             <!-- Register -->
             <b-form @submit="onSubmitLogin" v-if="signup">
@@ -81,7 +81,7 @@
     <script src="{% static "crypto/elgamal.js" %}"></script>
 
     <!-- Vuejs -->
-    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vue@2.7.3"></script>
     <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
     <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
 
